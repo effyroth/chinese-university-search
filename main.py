@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     setUp()
 
-    port = 8888
+    port = 8889
     application.listen(port)
     print "listen on :", port
     tornado.ioloop.IOLoop.instance().start()
